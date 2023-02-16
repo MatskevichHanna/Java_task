@@ -1,5 +1,7 @@
 package seminar_1;
+
 import java.util.Arrays;
+
 public class task_2 {
     /**
      * Дан массив nums = [3,2,2,3] и число val = 3.
@@ -15,6 +17,18 @@ public class task_2 {
     }
 
     private static void swap(int[] array, int val) {
-
+        int count = 1;
+        for (int i = 0; i < array.length; i++) {
+            int temp = 0;
+            if (array[i] == val && array.length - count > i) {
+                while (array[array.length - count] == val) {
+                    count++;
+                }
+                temp = array[array.length - count];
+                array[array.length - count] = array[i];
+                count++;
+                array[i] = temp;
+            }
+        }
     }
 }
