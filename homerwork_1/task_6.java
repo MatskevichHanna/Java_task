@@ -5,14 +5,14 @@ package homerwork_1;
 
 public class task_6 {
     public static void main(String[] args) {
-        int[] arr = {1, 1, 0, 0, 1, 0, 1, 1, 0, 1};
-        int arrll = arr.length;
-        for (int i = 0; i < arrll; i++) {
-            if (arr[i] == 1) arr[i] = 0;
-            else arr[i] = 1;
+        int[] array = {1, 1, 0, 0, 1, 0, 1, 1, 0, 1};
+        int arr = array.length;
+        for (int i = 0; i < arr; i++) {
+            if (array[i] == 1) array[i] = 0;
+            else array[i] = 1;
         }
-        for (int i = 0; i < arrll; i++) {
-            System.out.println(arr[i]);
+        for (int i = 0; i < arr; i++) {
+            System.out.println(array[i]);
         }
     }
 }
