@@ -10,7 +10,7 @@ public class task_1 {
         System.out.println(buildString(6, 'a', 'b')); // ababab
     }
 
-    private static String buildString(int n, char first, char second) {
+    public static String buildString(int n, char first, char second) {
         String N = new String();
         for (int i = 0; i < n; i++) {
             if (i % 2 == 0) {
