@@ -4,6 +4,7 @@
 package seminar_3;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Random;
 
 public class task_1 {
@@ -15,7 +16,7 @@ public class task_1 {
         }
         System.out.println("Список");
         System.out.println(myList.toString());
-        myList.sort(null);
+        Collections.sort(myList);
         System.out.println("Отсортированный список");
         System.out.println(myList.toString());
     }
