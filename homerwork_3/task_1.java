@@ -27,3 +27,4 @@ public class task_1 {
         System.out.printf("Список с удаленными четными числами %s", list1);
     }
 }
+
