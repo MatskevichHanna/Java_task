@@ -11,7 +11,7 @@ public class task_1 {
         Random rnd = new Random();
         ArrayList<Integer> list1 = new ArrayList<Integer>();
         for (int i = 0; i < 10; i++) {
-            int val = rnd.nextInt(-100, 100);
+            int val = rnd.nextInt(10);
             list1.add(val);
         }
         System.out.printf("Первоначальный список %s\n", list1);
